@@ -185,8 +185,8 @@ def _loo_ab(score: np.ndarray, y: np.ndarray) -> np.ndarray:
 
 
 def fit_letm1_sbd():
-    from scripts.plot_engineering_figures import _site_distance_table, load_scores
-    from scripts.try_closedloop_occupancy import c_ring_eff_molar
+    from simulation.plot_engineering_figures import _site_distance_table, load_scores
+    from simulation.try_closedloop_occupancy import c_ring_eff_molar
 
     g = _site_distance_table(load_scores())
     g = g[g.cluster == "LETM1-3l"].copy()
@@ -226,7 +226,7 @@ def fit_letm1_sbd():
 
 
 def plot_letm1_fit() -> None:
-    from scripts.try_closedloop_occupancy import c_ring_eff_molar
+    from simulation.try_closedloop_occupancy import c_ring_eff_molar
 
     fit = fit_letm1_sbd()
     n, y, sd, sites = fit["n"], fit["y"], fit["sd"], fit["sites"]

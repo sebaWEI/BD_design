@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build retrospective_scores.tsv from fluc Excel + RNAup energy tables.
 
-Prefer ``scripts/score_rnaup.py --sites …`` for tile energies. Legacy defaults
-still read screening run TSVs that already carry RNAup columns::
+Prefer ``python -m model.score_rnaup --sites …`` for tile energies. Legacy
+defaults still read screening run TSVs that already carry RNAup columns::
 
     LETM1: runs/20260926T120209Z_3ce6a3cc
     NSD2:  runs/20260926T120220Z_fc8c4409

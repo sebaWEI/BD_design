@@ -4,14 +4,14 @@
 Typical path: run BLAST/variant filter in BD_screening, then score the pass
 table here::
 
-    ../.venv/bin/python scripts/score_rnaup.py \\
+    ../.venv/bin/python -m model.score_rnaup \\
         --utr ../examples/LETM1.fasta \\
         --table ../runs/<id>/candidates.tsv \\
         --out data/retrospective_study/letm1_rnaup.tsv
 
 Or score every wet-lab tile without dropping BLAST failures first::
 
-    ../.venv/bin/python scripts/score_rnaup.py \\
+    ../.venv/bin/python -m model.score_rnaup \\
         --utr ../examples/LETM1.fasta \\
         --sites ../examples/LETM1.sites.fasta \\
         --out letm1_all_tiles_rnaup.tsv

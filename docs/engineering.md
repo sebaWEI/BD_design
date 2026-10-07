@@ -62,12 +62,12 @@ activity. A favourable interaction is not a favourable translational outcome.
 For a therapeutic design pipeline, an unstable prediction is worse than no
 prediction. We therefore limited the tool to safety-oriented filtering.
 
-**Build.** RNAup scoring lives in `BD_design` (`scripts/score_rnaup.py`), off by
-default. The default core is same-strand BLAST against the pinned GENCODE 45
-transcriptome, with only 5′UTR / 3′UTR hits above an adjustable length
-threshold dropping a site. Variation filtering (`--variants`) stays optional
-and off by default. Dropped sites name gene, transcript, UTR, identity, and
-both intervals.
+**Build.** RNAup scoring lives in `BD_design` (`model/score_rnaup.py`), off by
+default in screening. The default screening core is same-strand BLAST against
+the pinned GENCODE 45 transcriptome, with only 5′UTR / 3′UTR hits above an
+adjustable length threshold dropping a site. Variation filtering (`--variants`)
+stays optional and off by default. Dropped sites name gene, transcript, UTR,
+identity, and both intervals.
 
 **Test.** The workflow is a computational pre-screen before wet-lab validation.
 The thermodynamic score is not presented as a validated activity predictor.

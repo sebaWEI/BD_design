@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Try occupancy × 3D closed-loop contact on the retrospective tiles.
 
-Also the trans site score from scripts/mRNA_model.pdf §3.2::
+Also the trans site score from model/mRNA_model.pdf §3.2::
 
     Site_score(n) ∝ C_ring_eff(n) * exp(-ΔG_BD(n) / RT)
 
 Usage (repo root)::
 
-    .venv/bin/python scripts/try_closedloop_occupancy.py
+    ../.venv/bin/python -m simulation.try_closedloop_occupancy
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from scripts.plot_engineering_figures import (  # noqa: E402
+from simulation.plot_engineering_figures import (  # noqa: E402
     ACCENT,
     LINE,
     MUTED,

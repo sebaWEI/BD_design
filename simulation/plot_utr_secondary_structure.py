@@ -4,9 +4,9 @@
 Marks: 5′ cap, AUG-adjacent end of 5′UTR, stop-adjacent start of 3′UTR,
 polyA-proximal 3′ end, and wet-lab BD tiles (3l / 3s).
 
-Usage (repo root)::
+Usage (BD_design root)::
 
-    .venv/bin/python scripts/plot_utr_secondary_structure.py
+    ../.venv/bin/python -m simulation.plot_utr_secondary_structure
 """
 
 from __future__ import annotations
@@ -20,7 +20,7 @@ SCREENING = ROOT.parent
 OUT = ROOT / "docs" / "figures" / "engineering" / "utr_ss"
 CACHE = ROOT / "data" / "retrospective_study"
 LETM1_3UTR = SCREENING / "examples" / "LETM1.fasta"
-NSD2_3UTR = SCREENING / "examples" / "NSD2.FASTA"
+NSD2_3UTR = SCREENING / "examples" / "NSD2.fasta"
 LETM1_SITES = SCREENING / "runs/20260926T120209Z_3ce6a3cc/all_binding_sites.tsv"
 NSD2_SITES = SCREENING / "runs/20260926T120220Z_fc8c4409/all_binding_sites.tsv"
 

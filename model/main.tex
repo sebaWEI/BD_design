@@ -1,0 +1,886 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{A Quantitative Framework for Rational HEPHA-RNA Design}
+\author{子恒 魏}
+\date{October 2026}
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\section{Polymer Conformational Model}
+
+We approximate the mRNA as a freely jointed chain (FJC):
+\[
+\boldsymbol{\rho}
+=
+\sum_{i=1}^{N}\mathbf b_i,
+\qquad
+|\mathbf b_i|=b,
+\]
+where \(b\) is the Kuhn length and \(N=L/b\) is the number of Kuhn segments.
+
+For sufficiently large \(N\), the end-to-end vector can be approximated by a Gaussian distribution:
+\[
+\boxed{
+p(\boldsymbol{\rho})
+=
+\left(
+\frac{3}{2\pi Nb^2}
+\right)^{3/2}
+\exp\left(
+-\frac{3\rho^2}{2Nb^2}
+\right)
+}
+\]
+
+where \(p(\boldsymbol{\rho})\) is the three-dimensional probability density of the end-to-end vector and
+\(\rho=|\boldsymbol{\rho}|\).
+
+Since the protein-mediated bridge depends primarily on the distance between the two interaction sites, we integrate over all orientations to obtain the radial probability density:
+\[
+\boxed{
+p_{\rho}(\rho)
+=
+4\pi \rho^2 p(\boldsymbol{\rho})
+}
+\]
+
+or explicitly,
+
+\[
+p_{\rho}(\rho)
+=
+4\pi \rho^2
+\left(
+\frac{3}{2\pi Nb^2}
+\right)^{3/2}
+\exp\left(
+-\frac{3\rho^2}{2Nb^2}
+\right).
+\]
+
+We assume that protein-mediated bridging is geometrically possible when the distance between the two interaction sites lies within a capture range:
+\[
+\rho_{\min}\leq \rho\leq \rho_{\max}.
+\]
+
+The equilibrium fraction of RNA conformations within this protein-compatible range is therefore
+
+\[
+\boxed{
+P_{\rm enc}^{\rm loop}
+=
+\int_{\rho_{\min}}^{\rho_{\max}}
+p_{\rho}(\rho)\,d\rho
+}
+\]
+
+where \(P_{\rm enc}^{\rm loop}\) is dimensionless.
+
+The corresponding capture region is a spherical shell with volume
+
+\[
+\boxed{
+V_{\rm loop}
+=
+\frac{4\pi}{3}
+\left(
+\rho_{\max}^3-\rho_{\min}^3
+\right)
+}
+\]
+
+We define the average spatial probability density within this capture shell as
+
+\[
+\boxed{
+\bar p_{\rm loop}
+=
+\frac{P_{\rm enc}^{\rm loop}}
+{V_{\rm loop}}
+}
+\]
+
+which has units of inverse volume.
+
+To convert this spatial probability density into an effective concentration, we use the relation between the spatial density of one molecule and its molar concentration:
+
+\[
+C_{\rm eff}^{\rm loop}
+=
+\frac{\bar p_{\rm loop}}{N_A},
+\]
+
+with the appropriate unit conversion between volume and molarity.
+
+Thus,
+
+\[
+\boxed{
+C_{\rm eff}^{\rm loop}
+=
+\frac{1}{N_A}
+\frac{
+\displaystyle
+\int_{\rho_{\min}}^{\rho_{\max}}
+4\pi \rho^2p(\boldsymbol{\rho})\,d\rho
+}{
+\displaystyle
+\frac{4\pi}{3}
+\left(
+\rho_{\max}^3-\rho_{\min}^3
+\right)
+}
+}
+\]
+
+where \(C_{\rm eff}^{\rm loop}\) represents the average effective concentration of one interaction site around the other within the protein-compatible capture shell.
+
+\section{Protein-Mediated Bridging}
+
+We next consider protein-mediated bridging between the 5' and 3' ends of the mRNA, for example through interactions involving PABP and eIF4G.
+
+The standard-state bimolecular association constant is
+
+\[
+\boxed{
+K_{\rm bind}^{\circ}
+=
+\frac{1}{C^\circ}
+\exp\left(
+-\frac{\Delta G_{\rm bind}^{\circ}}{RT}
+\right)
+}
+\]
+
+where \(C^\circ=1\,\mathrm{M}\) is the standard concentration.
+
+The intramolecular looping equilibrium is then described by
+
+\[
+\boxed{
+K_{\rm loop}
+=
+K_{\rm bind}^{\circ}
+C_{\rm eff}^{\rm loop}
+}
+\]
+
+or equivalently,
+
+\[
+\boxed{
+K_{\rm loop}
+=
+\frac{C_{\rm eff}^{\rm loop}}{C^\circ}
+\exp\left(
+-\frac{\Delta G_{\rm bind}^{\circ}}{RT}
+\right)
+}
+\]
+
+Finally, treating the mRNA as a two-state system,
+
+\[
+\mathrm{Open}
+\rightleftharpoons
+\mathrm{Closed},
+\]
+
+the equilibrium fraction of closed-loop conformations is
+
+\[
+\boxed{
+f_{\rm closed}
+=
+\frac{K_{\rm loop}}
+{1+K_{\rm loop}}
+}
+\]
+
+\section{Closed-Loop Positional Model}
+
+Once the mRNA adopts the closed-loop state, we approximate the mRNA as a Gaussian ring and consider the spatial encounter between the BD and the 5' translation-initiation machinery.
+
+Let \(n\) denote the number of Kuhn segments along one contour path between the BD and the 5' translation-initiation anchor. The complementary contour path therefore contains \(N-n\) Kuhn segments. The spatial separation between the two sites is denoted by \(R\).
+
+For a Gaussian ring, the three-dimensional probability density of the spatial separation \(R\) is
+
+\[
+\boxed{
+p_{\rm ring}(\mathbf R\mid n)
+=
+\left[
+\frac{3N}
+{2\pi b^2n(N-n)}
+\right]^{3/2}
+\exp\left[
+-\frac{3NR^2}
+{2b^2n(N-n)}
+\right]
+}
+\]
+
+where \(R=|\mathbf R|\).
+
+Integrating over all orientations gives the corresponding radial probability density:
+
+\[
+\boxed{
+p_{\rm ring}(R\mid n)
+=
+4\pi R^2
+\left[
+\frac{3N}
+{2\pi b^2n(N-n)}
+\right]^{3/2}
+\exp\left[
+-\frac{3NR^2}
+{2b^2n(N-n)}
+\right]
+}
+\]
+
+Because the interaction between the BD and the 5' translation-initiation machinery involves finite-sized molecular interfaces rather than an ideal point contact, we assume that productive interaction occurs when their spatial separation lies within a finite capture range,
+
+\[
+R_{\min}\leq R\leq R_{\max}.
+\]
+
+The probability of finding the BD within this capture range is therefore
+
+\[
+\boxed{
+P_{\rm enc}^{\rm ring}(n)
+=
+\int_{R_{\min}}^{R_{\max}}
+p_{\rm ring}(R\mid n)\,dR
+}
+\]
+
+with the corresponding capture-shell volume
+
+\[
+\boxed{
+V_{\rm BD}
+=
+\frac{4\pi}{3}
+\left(
+R_{\max}^3-R_{\min}^3
+\right)
+}
+\]
+
+We define the shell-averaged effective concentration of the BD around the 5' translation-initiation machinery as
+
+\[
+\boxed{
+C_{\rm eff}^{\rm ring}(n)
+=
+\frac{1}{N_A}
+\frac{
+P_{\rm enc}^{\rm ring}(n)
+}{
+V_{\rm BD}
+}
+}
+\]
+
+with the appropriate unit conversion between volume and molarity.
+
+Equivalently,
+
+\[
+\boxed{
+C_{\rm eff}^{\rm ring}(n)
+=
+\frac{1}{N_A V_{\rm BD}}
+\int_{R_{\min}}^{R_{\max}}
+4\pi R^2
+\left[
+\frac{3N}
+{2\pi b^2n(N-n)}
+\right]^{3/2}
+\exp\left[
+-\frac{3NR^2}
+{2b^2n(N-n)}
+\right]dR
+}
+\]
+
+This quantity describes the positional contribution of the polymer conformation to the interaction between the BD and the 5' translation-initiation machinery.
+
+\subsection{cis Configuration}
+
+In the cis configuration, the BD is covalently incorporated into the same mRNA molecule as the 5' translation-initiation machinery. Therefore, no additional intermolecular BD--RNA binding free energy is required.
+
+The translational effect is consequently determined by the probability of forming the closed-loop state and the positional effective concentration of the BD:
+
+\[
+\boxed{
+TE_{\rm cis}(n)
+\propto
+f_{\rm closed}
+C_{\rm eff}^{\rm ring}(n)
+}
+\]
+
+Thus, under the assumption that the presence of the BD does not substantially perturb the open--closed equilibrium, the positional dependence of the cis configuration is determined by
+
+\[
+\boxed{
+TE_{\rm cis}(n)
+\propto
+C_{\rm eff}^{\rm ring}(n)
+}
+\]
+
+where \(n\) specifies the position of the BD along the closed-loop mRNA.
+
+\subsection{trans Configuration}
+
+In the trans configuration, the HEPHA-RNA carrying the BD is an independent RNA molecule. In addition to the spatial encounter between the BD and the 5' translation-initiation machinery, productive regulation therefore requires binding of the BD to its target site on the mRNA.
+
+The standard-state association constant for BD--target RNA binding is
+
+\[
+\boxed{
+K_{\rm BD}^{\circ}(n)
+=
+\frac{1}{C^\circ}
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+where \(C^\circ=1\,\mathrm{M}\) is the standard concentration and
+\(\Delta G_{\rm BD}^{\circ}(n)\) is the standard binding free energy between the BD and the target site at position \(n\).
+
+Importantly, \(\Delta G_{\rm BD}^{\circ}(n)\) is explicitly position-dependent because different target sites along the mRNA may have different sequence and structural properties, leading to different binding affinities.
+
+The spatial encounter and molecular binding contributions can then be combined into an effective intramolecular association term:
+
+\[
+\boxed{
+K_{\rm trans}(n)
+=
+K_{\rm BD}^{\circ}(n)
+C_{\rm eff}^{\rm ring}(n)
+}
+\]
+
+or equivalently,
+
+\[
+\boxed{
+K_{\rm trans}(n)
+=
+\frac{
+C_{\rm eff}^{\rm ring}(n)
+}{
+C^\circ
+}
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+This expression separates the two contributions to trans-acting regulation: \(C_{\rm eff}^{\rm ring}(n)\) describes the positional and polymer-conformational contribution, whereas \(\Delta G_{\rm BD}^{\circ}(n)\) describes the sequence- and structure-dependent binding contribution.
+
+Consequently, the translational effect of a trans-acting BD targeting site \(n\) can be written as
+
+\[
+\boxed{
+TE_{\rm trans}(n)
+\propto
+f_{\rm closed}
+C_{\rm eff}^{\rm ring}(n)
+K_{\rm BD}^{\circ}(n)
+}
+\]
+
+or
+
+\[
+\boxed{
+TE_{\rm trans}(n)
+\propto
+f_{\rm closed}
+\frac{
+C_{\rm eff}^{\rm ring}(n)
+}{
+C^\circ
+}
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+Thus, the model naturally decomposes the positional effect of a trans-acting element into two independent contributions: the spatial accessibility determined by polymer conformational statistics and the binding affinity determined by the free energy of BD--target RNA interaction.
+
+For comparing different target sites on the same mRNA, \(f_{\rm closed}\) is a common factor and can therefore be omitted. The site-dependent contribution to trans-acting regulation is then
+
+\[
+\boxed{
+TE_{\rm trans}(n)
+\propto
+C_{\rm eff}^{\rm ring}(n)
+K_{\rm BD}^{\circ}(n)
+}
+\]
+
+or equivalently,
+
+\[
+\boxed{
+TE_{\rm trans}(n)
+\propto
+\frac{
+C_{\rm eff}^{\rm ring}(n)
+}{
+C^\circ
+}
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+Thus, when comparing candidate BD binding sites, the model contains two site-dependent contributions:
+
+\[
+\boxed{
+\text{Site score}(n)
+\propto
+\underbrace{
+C_{\rm eff}^{\rm ring}(n)
+}_{\text{polymer positional contribution}}
+\;
+\underbrace{
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}_{\text{binding contribution}}
+}
+\]
+
+The first term captures the positional accessibility of the target site within the closed-loop mRNA, whereas the second term captures the sequence- and structure-dependent affinity of the BD for that site.
+
+\subsection{Constrained Closed-Loop Model}
+
+The Gaussian-ring model assumes that translational enhancement
+depends only on the spatial proximity between the BD and the
+translation-initiation machinery.
+
+However, experimental observations suggest that proximity alone
+is insufficient to explain the positional dependence of the BD.
+Instead, optimal activity appears when the effective length of
+the 3'-side arm approximately matches that of the 5'-side arm.
+
+We therefore introduce an additional conformational constraint
+that represents the geometric restrictions imposed by the
+5'--3' closed-loop architecture.
+
+Let
+
+\[
+n_{5A}
+\]
+
+denote the effective conformational length between the 5' end
+and the AUG codon, and
+
+\[
+n_{B3}(n)
+\]
+
+denote the effective conformational length between the BD site
+and the poly(A) tail.
+
+These quantities do not necessarily correspond to the actual
+contour lengths of the RNA, but instead represent coarse-grained
+effective lengths arising from RNA structure and protein-mediated
+organization.
+
+We assume that the closed-loop architecture preferentially
+stabilizes conformations in which the two arms have similar
+effective lengths.
+
+This preference is represented by a harmonic conformational
+potential:
+
+\[
+\boxed{
+U_{\rm match}(n)
+=
+\frac{k_{\rm match}}{2}
+\left[
+n_{5A}
+-
+n_{B3}(n)
+\right]^2
+}
+\]
+
+where \(k_{\rm match}\) represents the strength of the
+conformational constraint.
+
+According to the Boltzmann distribution, the statistical weight
+associated with this constraint is
+
+\[
+\boxed{
+P_{\rm match}(n)
+=
+\exp\left[
+-\frac{
+U_{\rm match}(n)
+}{RT}
+\right]
+}
+\]
+
+or explicitly,
+
+\[
+\boxed{
+P_{\rm match}(n)
+=
+\exp\left[
+-\frac{
+k_{\rm match}
+}{
+2RT
+}
+\left(
+n_{5A}
+-
+n_{B3}(n)
+\right)^2
+\right]
+}
+\]
+
+This factor describes the probability that a BD position is
+compatible with the global closed-loop architecture.
+
+The effective concentration in the constrained closed-loop model
+is therefore
+
+\[
+\boxed{
+C_{\rm eff}^{\rm constrained}(n)
+=
+C_{\rm eff}^{\rm ring}(n)
+P_{\rm match}(n)
+}
+\]
+
+which gives
+
+\[
+\boxed{
+C_{\rm eff}^{\rm constrained}(n)
+=
+C_{\rm eff}^{\rm ring}(n)
+\exp\left[
+-\frac{
+k_{\rm match}
+}{
+2RT
+}
+\left(
+n_{5A}
+-
+n_{B3}(n)
+\right)^2
+\right]
+}
+\]
+
+Finally, the trans-site score becomes
+
+\[
+\boxed{
+\text{Site score}(n)
+\propto
+C_{\rm eff}^{\rm constrained}(n)
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+or equivalently,
+
+\[
+\boxed{
+\text{Site score}(n)
+\propto
+C_{\rm eff}^{\rm ring}(n)
+\exp\left[
+-\frac{
+k_{\rm match}
+}{
+2RT
+}
+\left(
+n_{5A}
+-
+n_{B3}(n)
+\right)^2
+\right]
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+\subsection{Effector Domain Kinetic Model}
+
+While the BD determines where HEPHA-RNA interacts with the target mRNA, the ED determines how efficiently translational machinery is recruited. We therefore model ED activity as a kinetic balance between ribosome capture and release.
+
+For an ED designed against a ribosomal protein, we use the predicted interface confidence, \(\mathrm{ipTM}\), as a proxy for the strength of the ED--protein interaction. Because \(\mathrm{ipTM}\) is not itself a thermodynamic quantity, we introduce a latent interaction-strength parameter,
+
+\[
+\boxed{
+\theta_{\rm ED}
+=
+w_{\rm ED}\,\mathrm{ipTM}
++
+b_{\rm ED}
+}
+\]
+
+where \(w_{\rm ED}\) and \(b_{\rm ED}\) are parameters calibrated from experimental data.
+
+We then consider the reversible binding process between the ED and its ribosomal target \(R\),
+
+\[
+E+R
+\underset{k_{\rm off}}{\overset{k_{\rm on}}{\rightleftharpoons}}
+ER,
+\]
+
+where \(E\) denotes the ED and \(ER\) denotes the ED--ribosome complex. The corresponding capture and release rates are
+
+\[
+\boxed{
+v_{\rm capture}
+=
+k_{\rm on}[E][R]
+}
+\]
+
+and
+
+\[
+\boxed{
+v_{\rm release}
+=
+k_{\rm off}[ER].
+}
+\]
+
+To connect the predicted interaction strength with the kinetic parameters, we assume that stronger ED--ribosome interactions primarily reduce the dissociation rate,
+
+\[
+\boxed{
+k_{\rm off}
+=
+k_{\rm off}^{0}
+\exp\left(
+-\beta\theta_{\rm ED}
+\right)
+}
+\]
+
+where \(k_{\rm off}^{0}\) is a reference dissociation rate and \(\beta\) controls the sensitivity of the kinetic model to the predicted interaction strength. Under this formulation, increasing \(\mathrm{ipTM}\) corresponds to a longer ED--ribosome residence time,
+
+\[
+\boxed{
+\tau_{\rm residence}
+=
+\frac{1}{k_{\rm off}}.
+}
+\]
+
+However, productive recruitment requires both efficient capture and subsequent release of the translational machinery. The probability of ribosome capture can be approximated by the occupancy of the ED--ribosome complex,
+
+\[
+\boxed{
+P_{\rm capture}
+=
+\frac{
+k_{\rm on}[R]
+}{
+k_{\rm on}[R]+k_{\rm off}
+}.
+}
+\]
+
+The release process is governed by \(k_{\rm off}\). We therefore define the productive recruitment efficiency as
+
+\[
+\boxed{
+\Phi_{\rm ED}
+\propto
+P_{\rm capture}\,k_{\rm off}
+}
+\]
+
+which gives
+
+\[
+\boxed{
+\Phi_{\rm ED}
+\propto
+\frac{
+k_{\rm on}[R]\,k_{\rm off}
+}{
+k_{\rm on}[R]+k_{\rm off}
+}.
+}
+\]
+
+This formulation captures the kinetic trade-off inherent to ED design. When the ED--ribosome interaction is too weak, \(k_{\rm off}\) is large and the ribosome cannot be efficiently retained after capture. Conversely, when the interaction is excessively strong, \(k_{\rm off}\) becomes too small, increasing the residence time and limiting ribosome release. Productive recruitment therefore occurs at an intermediate interaction strength rather than at the maximum possible affinity.
+
+Thus, the ED design objective can be summarized as
+
+\[
+\boxed{
+\mathrm{ipTM}
+\longrightarrow
+\theta_{\rm ED}
+\longrightarrow
+(k_{\rm on},k_{\rm off})
+\longrightarrow
+\Phi_{\rm ED}
+}
+\]
+
+where \(\Phi_{\rm ED}\) provides a kinetic measure of productive ribosome recruitment rather than simply maximizing binding affinity.
+
+
+\subsection{Joint Optimization of BD and ED}
+
+The BD and ED contribute to HEPHA-RNA activity through distinct but complementary mechanisms. The BD determines the positional accessibility and target-binding efficiency of the HEPHA-RNA, whereas the ED determines the kinetic efficiency of translational machinery recruitment. We therefore combine the two components into a unified design score.
+
+For a given BD position \(n\) and ED design characterized by its predicted interface confidence \(\mathrm{ipTM}\), the overall score is defined as
+
+\[
+\boxed{
+S_{\rm HEPHA}(n,\mathrm{ipTM})
+\propto
+S_{\rm BD}(n)\,
+\Phi_{\rm ED}(\mathrm{ipTM})
+}
+\]
+
+where the BD contribution is
+
+\[
+\boxed{
+S_{\rm BD}(n)
+=
+C_{\rm eff}^{\rm constrained}(n)
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+}
+\]
+
+and the ED contribution is
+
+\[
+\boxed{
+\Phi_{\rm ED}(\mathrm{ipTM})
+\propto
+\frac{
+k_{\rm on}[R]\,k_{\rm off}(\mathrm{ipTM})
+}{
+k_{\rm on}[R]+k_{\rm off}(\mathrm{ipTM})
+}.
+}
+\]
+
+Thus,
+
+\[
+\boxed{
+S_{\rm HEPHA}(n,\mathrm{ipTM})
+\propto
+C_{\rm eff}^{\rm constrained}(n)
+\exp\left[
+-\frac{\Delta G_{\rm BD}^{\circ}(n)}
+{RT}
+\right]
+\Phi_{\rm ED}(\mathrm{ipTM})
+}
+\]
+
+describes the combined effect of target-site accessibility, BD binding, and ED-mediated ribosome recruitment.
+
+For a fixed target mRNA, the sequence-dependent BD affinity and the global closed-loop parameters can be treated as fixed when examining the joint dependence on BD position and ED interaction strength. The resulting score can therefore be approximated as
+
+\[
+\boxed{
+S_{\rm HEPHA}(n,\mathrm{ipTM})
+\approx
+S_{\rm BD}(n)\,
+\Phi_{\rm ED}(\mathrm{ipTM}).
+}
+\]
+
+This separability produces two independent optima: an optimal BD position,
+
+\[
+\boxed{
+n^*
+=
+\arg\max_n S_{\rm BD}(n),
+}
+\]
+
+and an optimal ED interaction strength,
+
+\[
+\boxed{
+\mathrm{ipTM}^*
+=
+\arg\max_{\mathrm{ipTM}}
+\Phi_{\rm ED}(\mathrm{ipTM}).
+}
+\]
+
+The joint optimum is therefore
+
+\[
+\boxed{
+(n^*,\mathrm{ipTM}^*)
+=
+\arg\max_{n,\mathrm{ipTM}}
+S_{\rm HEPHA}(n,\mathrm{ipTM}).
+}
+\]
+
+Importantly, neither component is expected to favor the strongest possible interaction indefinitely. The constrained-ring model produces a positional optimum for the BD, while the capture--release kinetics of the ED produces an intermediate optimal interaction strength. Consequently, the joint design landscape is expected to exhibit a localized maximum in the two-dimensional design space spanned by BD position and ED interaction strength.
+
+This framework therefore transforms HEPHA-RNA design from independent optimization of individual domains into a unified, experimentally calibratable fitness landscape.
+\end{document}

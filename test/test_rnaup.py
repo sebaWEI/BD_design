@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.score_rnaup import anchor_interaction, parse_rnaup_output, run_rnaup
+from model.score_rnaup import anchor_interaction, parse_rnaup_output, run_rnaup
 
 
 OUTPUT = "((((((&))))))  121,160 : 1,40  (-12.30 = -20.00 + 5.00 + 2.70)"

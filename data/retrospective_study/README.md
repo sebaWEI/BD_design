@@ -7,25 +7,25 @@
 | `*fluc.xlsx` / `分子动力学结果.xlsx` | Raw wet-lab / MD sheets |
 | `*.cdna.fa` / `*.gbk` | Transcript / construct references |
 
-Rebuild energy columns with `scripts/score_rnaup.py` (not `bsst filter`):
+Rebuild energy columns with `model/score_rnaup.py` (not `bsst filter`):
 
 ```bash
 # From BD_design/, with RNAup on PATH and parent screening checkout
-../.venv/bin/python scripts/score_rnaup.py \
+../.venv/bin/python -m model.score_rnaup \
   --utr ../examples/LETM1.fasta \
   --sites ../examples/LETM1.sites.fasta \
   --out data/retrospective_study/letm1_tiles_rnaup.tsv
 
-../.venv/bin/python scripts/score_rnaup.py \
-  --utr ../examples/NSD2.FASTA \
+../.venv/bin/python -m model.score_rnaup \
+  --utr ../examples/NSD2.fasta \
   --sites ../examples/NSD2.sites.fasta \
   --out data/retrospective_study/nsd2_tiles_rnaup.tsv
 
-../.venv/bin/python scripts/build_retrospective_scores.py
+../.venv/bin/python -m simulation.build_retrospective_scores
 ```
 
 Then:
 
 ```bash
-../.venv/bin/python scripts/plot_engineering_figures.py
+../.venv/bin/python -m simulation.plot_engineering_figures
 ```
