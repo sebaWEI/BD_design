@@ -62,7 +62,7 @@ activity. A favourable interaction is not a favourable translational outcome.
 For a therapeutic design pipeline, an unstable prediction is worse than no
 prediction. We therefore limited the tool to safety-oriented filtering.
 
-**Build.** RNAup remains an optional exploratory module (`--rnaup`), off by
+**Build.** RNAup scoring lives in `BD_design` (`scripts/score_rnaup.py`), off by
 default. The default core is same-strand BLAST against the pinned GENCODE 45
 transcriptome, with only 5′UTR / 3′UTR hits above an adjustable length
 threshold dropping a site. Variation filtering (`--variants`) stays optional
