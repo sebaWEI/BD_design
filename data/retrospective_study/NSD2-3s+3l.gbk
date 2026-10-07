@@ -1,0 +1,670 @@
+LOCUS       NSD2                    7560 bp    mRNA    linear   UNA 02-JUN-2026
+DEFINITION  Homo sapiens nuclear receptor binding SET domain protein 2 (NSD2), 
+            transcript variant 10, mRNA.
+ACCESSION   NM_001042424
+VERSION     .
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+REFERENCE   1  (bases 1 to 7560)
+  AUTHORS   Parolia A, Eyunni S, Verma BK, Young E, Liu Y, Liu L, George J, Aras
+            S, Das CK, Mannan R, Ur Rasool R, Mitchell-Velasquez E, Mahapatra S,
+            Luo J, Carson SE, Xiao L, Gajjala PR, Venkatesh S, Jaber M, Wang X, 
+            He T, Qiao Y, Pang M, Zhang Y, Tien JC, Louw M, Alhusayan M, Cao X, 
+            Su F, Tavana O, Hou C, Wang Z, Ding K, Chinnaiyan AM, Asangani IA.
+  TITLE     NSD2 is a requisite subunit of the AR/FOXA1 neo-enhanceosome in 
+            promoting prostate tumorigenesis
+  JOURNAL   Nat Genet 56 (10), 2132-2143 (2024)
+  PUBMED    39251788
+REFERENCE   2  (bases 1 to 7560)
+  AUTHORS   Goto N, Suke K, Yonezawa N, Nishihara H, Handa T, Sato Y, Kujirai T,
+            Kurumizaka H, Yamagata K, Kimura H.
+  TITLE     ISWI chromatin remodeling complexes recruit NSD2 and H3K36me2 in 
+            pericentromeric heterochromatin
+  JOURNAL   J Cell Biol 223 (8) (2024)
+  PUBMED    38709169
+REFERENCE   3  (bases 1 to 7560)
+  AUTHORS   Feng W, Niu N, Lu P, Chen Z, Rao H, Zhang W, Ma C, Liu C, Xu Y, Gao 
+            WQ, Xue J, Li L.
+  TITLE     Multilevel Regulation of NF-kappaB Signaling by NSD2 Suppresses 
+            Kras-Driven Pancreatic Tumorigenesis
+  JOURNAL   Adv Sci (Weinh) 11 (30), e2309387 (2024)
+  PUBMED    38889281
+REFERENCE   4  (bases 1 to 7560)
+  AUTHORS   Sobh A, Encinas E, Patel A, Surapaneni G, Bonilla E, Kaestner C, 
+            Poullard J, Clerio M, Vasan K, Freeman T, Lv D, Dupere-Richer D, 
+            Riva A, Barwick BG, Zhou D, Boise LH, Mitsiades CS, Kim B, Bennett 
+            RL, Chandel NS, Licht JD.
+  TITLE     NSD2 drives t(4;14) myeloma cell dependence on adenylate kinase 2 by
+            diverting one-carbon metabolism to the epigenome
+  JOURNAL   Blood 144 (3), 283-295 (2024)
+  PUBMED    38598835
+REFERENCE   5  (bases 1 to 7560)
+  AUTHORS   Nishi E, Yanagi K, Kaname T, Okamoto N.
+  TITLE     Clinical details of individuals with Rauch-Steindl syndrome due to 
+            NSD2 truncating variants
+  JOURNAL   Mol Genet Genomic Med 12 (2), e2396 (2024)
+  PUBMED    38353053
+REFERENCE   6  (bases 1 to 7560)
+  AUTHORS   Stec I, Wright TJ, van Ommen GJ, de Boer PA, van Haeringen A, 
+            Moorman AF, Altherr MR, den Dunnen JT.
+  TITLE     WHSC1, a 90 kb SET domain-containing gene, expressed in early 
+            development and homologous to a Drosophila dysmorphy gene maps in 
+            the Wolf-Hirschhorn syndrome critical region and is fused to IgH in 
+            t(4;14) multiple myeloma
+  JOURNAL   Hum Mol Genet 7 (7), 1071-1082 (1998)
+  PUBMED    9618163
+REFERENCE   7  (bases 1 to 7560)
+  AUTHORS   Richelda R, Ronchetti D, Baldini L, Cro L, Viggiano L, Marzella R, 
+            Rocchi M, Otsuki T, Lombardi L, Maiolo AT, Neri A.
+  TITLE     A novel chromosomal translocation t(4; 14)(p16.3; q32) in multiple 
+            myeloma involves the fibroblast growth-factor receptor 3 gene
+  JOURNAL   Blood 90 (10), 4062-4070 (1997)
+  PUBMED    9354676
+REFERENCE   8  (bases 1 to 7560)
+  AUTHORS   Chesi M, Nardini E, Brents LA, Schrock E, Ried T, Kuehl WM, 
+            Bergsagel PL.
+  TITLE     Frequent translocation t(4;14)(p16.3;q32.3) in multiple myeloma is 
+            associated with increased expression and activating mutations of 
+            fibroblast growth factor receptor 3
+  JOURNAL   Nat Genet 16 (3), 260-264 (1997)
+  PUBMED    9207791
+REFERENCE   9  (bases 1 to 7560)
+  AUTHORS   Wright TJ, Ricke DO, Denison K, Abmayr S, Cotter PD, Hirschhorn K, 
+            Keinanen M, McDonald-McGinn D, Somer M, Spinner N, Yang-Feng T, 
+            Zackai E, Altherr MR.
+  TITLE     A transcript map of the newly defined 165 kb Wolf-Hirschhorn 
+            syndrome critical region
+  JOURNAL   Hum Mol Genet 6 (2), 317-324 (1997)
+  PUBMED    9063753
+REFERENCE   10  (bases 1 to 7560)
+  AUTHORS   Battaglia A, Carey JC, South ST.
+  TITLE     Wolf-Hirschhorn Syndrome - RETIRED CHAPTER, FOR HISTORICAL REFERENCE
+            ONLY
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A 
+            (Eds.); GENEREVIEWS(R); (1993)
+  PUBMED    20301362
+REFERENCE   11  (bases 1 to 7560)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jun 2, 2026 from SnapGene 8.0.0
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Nat Genet";
+            date: "2024"; volume: "56"; issue: "10"; pages: "2132-2143"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "J Cell Biol
+            223 (8) (2024)"
+COMMENT     SGRef: number: 3; type: "Journal Article"; journalName: "Adv Sci
+            (Weinh)"; date: "2024"; volume: "11"; issue: "30"; pages: "e2309387"
+COMMENT     SGRef: number: 4; type: "Journal Article"; journalName: "Blood"; 
+            date: "2024"; volume: "144"; issue: "3"; pages: "283-295"
+COMMENT     SGRef: number: 5; type: "Journal Article"; journalName: "Mol Genet
+            Genomic Med"; date: "2024"; volume: "12"; issue: "2"; pages: "e2396"
+COMMENT     SGRef: number: 6; type: "Journal Article"; journalName: "Hum Mol
+            Genet"; date: "1998"; volume: "7"; issue: "7"; pages: "1071-1082"
+COMMENT     SGRef: number: 7; type: "Journal Article"; journalName: "Blood"; 
+            date: "1997"; volume: "90"; issue: "10"; pages: "4062-4070"
+COMMENT     SGRef: number: 8; type: "Journal Article"; journalName: "Nat Genet";
+            date: "1997"; volume: "16"; issue: "3"; pages: "260-264"
+COMMENT     SGRef: number: 9; type: "Journal Article"; journalName: "Hum Mol
+            Genet"; date: "1997"; volume: "6"; issue: "2"; pages: "317-324"
+COMMENT     SGRef: number: 10; type: "Journal Article"; journalName: ""(in) Adam
+            MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A (Eds.)"
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The 
+            reference sequence was derived from AC105448.5, CX866583.1, 
+            BC032731.3, BC094825.1, AF071593.1 and BM982021.1.
+            This sequence is a reference standard in the RefSeqGene project.On 
+            Nov 23, 2018 this sequence version replaced NM_001042424.2.Summary: 
+            This gene encodes a protein that contains four domains present in 
+            other developmental proteins: a PWWP domain, an HMG box, a SET 
+            domain, and a PHD-type zinc finger. It is expressed ubiquitously in 
+            early development. Wolf-Hirschhorn syndrome (WHS) is a malformation 
+            syndrome associated with a hemizygous deletion of the distal short 
+            arm of chromosome 4. This gene maps to the 165 kb WHS critical 
+            region and has also been involved in the chromosomal translocation 
+            t(4;14)(p16.3;q32.3) in multiple myelomas. Alternative splicing of 
+            this gene results in multiple transcript variants encoding different
+            isoforms. Some transcript variants are nonsense-mediated mRNA (NMD) 
+            decay candidates, hence not represented as reference sequences. 
+            [provided by RefSeq, Jul 2008].
+            Transcript Variant: This variant (10) contains a novel 5' non-coding
+            exon compared to transcript variant 1, hence has a different 5' UTR.
+            However, it encodes the same isoform (1) as transcript variants 1, 2
+            and 3.Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene 
+            record to access additional publications.##Evidence-Data-START## 
+            Transcript exon combination :: SRR14038191.3427661.1,
+                                           SRR11853563.24873.1 [ECO:0000332] 
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348] 
+            ##Evidence-Data-END####RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000508803.6/ ENSP00000423972.1 
+            RefSeq Select criteria :: based on conservation, expression 
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..7560
+                     /chromosome="4"
+                     /map="4p16.3"
+                     /mol_type="mRNA"
+                     /note="color: #ffffff"
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+     gene            1..7560
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /label=NSD2
+                     /note="nuclear receptor binding SET domain protein 2"
+                     /note="color: #a6acb3; direction: RIGHT"
+                     /db_xref="GeneID:7468"
+                     /db_xref="HGNC:HGNC:12766"
+                     /db_xref="MIM:602952"
+     exon            1..150
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            151..776
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    156..158
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /label=upstream in-frame stop codon
+                     /note="upstream in-frame stop codon"
+                     /note="color: #a6acb3"
+     CDS             180..4277
+                     /codon_start=1
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /product="histone-lysine N-methyltransferase NSD2 isoform
+                     1"
+                     /EC_number="2.1.1.357"
+                     /label=NSD2
+                     /note="isoform 1 is encoded by transcript variant 10; 
+                     trithorax/ash1-related protein 5; probable histone-lysine 
+                     N-methyltransferase NSD2; IL5 promoter REII region-binding 
+                     protein; multiple myeloma SET domain containing protein 
+                     type III; nuclear SET domain-containing protein 2; 
+                     Wolf-Hirschhorn syndrome candidate 1"
+                     /note="color: #993366"
+                     /db_xref="CCDS:CCDS33940.1"
+                     /db_xref="GeneID:7468"
+                     /db_xref="HGNC:HGNC:12766"
+                     /db_xref="MIM:602952"
+                     /protein_id="NP_001035889.1"
+                     /translation="MEFSIKQSPLSVQSVVKCIKMKQAPEILGSANGKTPSCEVNRECS
+                     VFLSKAQLSSSLQEGVMQKFNGHDALPFIPADKLKDLTSRVFNGEPGAHDAKLRFESQE
+                     MKGIGTPPNTTPIKNGSPEIKLKITKTYMNGKPLFESSICGDSAADVSQSEENGQKPEN
+                     KARRNRKRSIKYDSLLEQGLVEAALVSKISSPSDKKIPAKKESCPNTGRDKDHLLKYNV
+                     GDLVWSKVSGYPWWPCMVSADPLLHSYTKLKGQKKSARQYHVQFFGDAPERAWIFEKSL
+                     VAFEGEGQFEKLCQESAKQAPTKAEKIKLLKPISGKLRAQWEMGIVQAEEAASMSVEER
+                     KAKFTFLYVGDQLHLNPQVAKEAGIAAESLGEMAESSGVSEEAAENPKSVREECIPMKR
+                     RRRAKLCSSAETLESHPDIGKSTPQKTAEADPRRGVGSPPGRKKTTVSMPRSRKGDAAS
+                     QFLVFCQKHRDEVVAEHPDASGEEIEELLRSQWSLLSEKQRARYNTKFALVAPVQAEED
+                     SGNVNGKKRNHTKRIQDPTEDAEAEDTPRKRLRTDKHSLRKRDTITDKTARTSSYKAME
+                     AASSLKSQAATKNLSDACKPLKKRNRASTAASSALGFSKSSSPSASLTENEVSDSPGDE
+                     PSESPYESADETQTEVSVSSKKSERGVTAKKEYVCQLCEKPGSLLLCEGPCCGAFHLAC
+                     LGLSRRPEGRFTCSECASGIHSCFVCKESKTDVKRCVVTQCGKFYHEACVKKYPLTVFE
+                     SRGFRCPLHSCVSCHASNPSNPRPSKGKMMRCVRCPVAYHSGDACLAAGCSVIASNSII
+                     CTAHFTARKGKRHHAHVNVSWCFVCSKGGSLLCCESCPAAFHPDCLNIEMPDGSWFCND
+                     CRAGKKLHFQDIIWVKLGNYRWWPAEVCHPKNVPPNIQKMKHEIGEFPVFFFGSKDYYW
+                     THQARVFPYMEGDRGSRYQGVRGIGRVFKNALQEAEARFREIKLQREARETQESERKPP
+                     PYKHIKVNKPYGKVQIYTADISEIPKCNCKPTDENPCGFDSECLNRMLMFECHPQVCPA
+                     GEFCQNQCFTKRQYPETKIIKTDGKGWGLVAKRDIRKGEFVNEYVGELIDEEECMARIK
+                     HAHENDITHFYMLTIDKDRIIDAGPKGNYSRFMNHSCQPNCETLKWTVNGDTRVGLFAV
+                     CDIPAGTELTFNYNLDCLGNEKTVCRCGASNCSGFLGDRPKTSTTLSSEEKGKKTKKKT
+                     RRRRAKGEGKRQSEDECFRCGDGGQLVLCDRKFCTKAYHLSCLGLGKRPFGKWECPWHH
+                     CDVCGKPSTSFCHLCPNSFCKEHQDGTAFSCTPDGRSYCCEHDLGAASVRSTKTEKPPP
+                     EPGKPKGKRRRRRGWRRVTEGK"
+     misc_feature    507..509
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:19690332, 
+                     ECO:0007744|PubMed:23186163; propagated from 
+                     UniProtKB/Swiss-Prot (O96028.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     misc_feature    519..521
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from 
+                     UniProtKB/Swiss-Prot (O96028.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     misc_feature    540..542
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648, 
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:23186163; 
+                     propagated from UniProtKB/Swiss-Prot (O96028.1); 
+                     phosphorylation site"
+                     /note="color: #a6acb3"
+     misc_feature    624..689
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O96028.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="color: #a6acb3"
+     misc_feature    693..695
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from 
+                     UniProtKB/Swiss-Prot (O96028.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     exon            777..939
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            940..1106
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1107..1589
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    1305..1544
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O96028.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="color: #a6acb3"
+     misc_feature    1305..1307
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from 
+                     UniProtKB/Swiss-Prot (O96028.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     misc_feature    1443..1445
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from 
+                     UniProtKB/Swiss-Prot (O96028.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     exon            1590..1734
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    1725..2153
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O96028.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="color: #a6acb3"
+     exon            1735..1853
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    1809..1811
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:17081983, 
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:19690332, 
+                     ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:23186163; 
+                     propagated from UniProtKB/Swiss-Prot (O96028.1); 
+                     phosphorylation site"
+                     /note="color: #a6acb3"
+     exon            1854..1935
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1936..2060
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    2019..2021
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from 
+                     UniProtKB/Swiss-Prot (O96028.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     exon            2061..2192
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            2193..2316
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            2317..2517
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            2518..2697
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            2698..2854
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            2855..3060
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            3061..3164
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            3165..3434
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            3435..3551
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            3552..3693
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            3694..3800
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    3798..3875
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O96028.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="color: #a6acb3"
+     exon            3801..4005
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            4006..7560
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    4176..4274
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O96028.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="color: #a6acb3"
+     misc_feature    4866..4905
+                     /label=a
+                     /note="color: #008080"
+     misc_feature    4886..4925
+                     /label=b
+                     /label=a
+                     /note="color: #ffff00"
+     misc_feature    4906..4945
+                     /label=c
+                     /label=b
+                     /note="color: #ffcc00"
+     misc_feature    4926..4965
+                     /label=d
+                     /label=c
+                     /note="color: #00ff00"
+     misc_feature    4946..4985
+                     /label=e
+                     /label=d
+                     /note="color: #ff00ff"
+     misc_feature    4966..5005
+                     /label=f
+                     /label=e
+                     /note="color: #00ffff"
+     misc_feature    4986..5025
+                     /label=g
+                     /label=f
+                     /note="color: #00ccff"
+     misc_feature    5006..5045
+                     /label=h
+                     /label=g
+                     /note="color: #993366"
+     misc_feature    5026..5065
+                     /label=i
+                     /note="color: #99cc00"
+     regulatory      5132..5137
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /label=hexamer: AATATA
+                     /note="hexamer: AATATA"
+                     /note="color: #ffffff"
+                     /regulatory_class="polyA_signal_sequence"
+     polyA_site      5164
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /label=major polyA site
+                     /note="major polyA site"
+                     /note="color: #a6acb3"
+     misc_feature    7262..7301
+                     /label=1
+                     /note="color: #33cccc"
+     misc_feature    7282..7321
+                     /label=2
+                     /note="color: #3366ff"
+     misc_feature    7302..7341
+                     /label=3
+                     /note="color: #339966"
+     misc_feature    7322..7361
+                     /label=4
+                     /note="color: #800080"
+     misc_feature    7342..7381
+                     /label=5
+                     /note="color: #ff0000"
+     misc_feature    7362..7401
+                     /label=6
+                     /note="color: #cc99ff"
+     misc_feature    7382..7421
+                     /label=7
+                     /note="color: #ff9900"
+     misc_feature    7402..7441
+                     /label=8
+                     /note="color: #99ccff"
+     misc_feature    7422..7461
+                     /label=9
+                     /note="color: #99cc00"
+     regulatory      7541..7546
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /label=hexamer: ATTAAA
+                     /note="hexamer: ATTAAA"
+                     /note="color: #ffffff"
+                     /regulatory_class="polyA_signal_sequence"
+     polyA_site      7560
+                     /gene="NSD2"
+                     /gene_synonym="KMT3F; KMT3G; MMSET; RAUST; REIIBP; TRX5;
+                     WHS; WHSC1"
+                     /label=major polyA site
+                     /note="major polyA site"
+                     /note="color: #a6acb3"
+ORIGIN
+        1 ggcgccgcgc gcgagagcct cggcctggcc gcgctgcgcc cgccgccgcc gccgccccct
+       61 ccccgcctgg gccctaccgc cgcacggccc cggccccctc ccagcctgcc gctccggaga
+      121 gccgcccgcc gaggatgcga cgcaccgcag tgttctaaga acggaagcat ctgggctgga
+      181 tggaatttag catcaagcag agtccccttt ctgttcagag tgttgtaaag tgcataaaga
+      241 tgaagcaggc accagaaatc ctcggcagtg ccaacgggaa gactccgagc tgcgaggtga
+      301 accgcgagtg ttctgtgttc ctcagcaaag cccagctctc cagtagcctg caggaggggg
+      361 tcatgcagaa gtttaacggc cacgacgccc tgccctttat tccagccgac aagctgaaag
+      421 atcttacttc ccgggtgttt aatggagaac ccggcgcaca cgatgccaaa ctgcgttttg
+      481 agtcccagga aatgaaaggg attgggacac cccctaacac tacccctatc aaaaatggct
+      541 ctccagaaat taagctgaaa atcaccaaaa catacatgaa tgggaagcct ctctttgaat
+      601 cttccatttg tggtgacagt gctgctgatg tgtctcagtc agaagaaaat ggacaaaaac
+      661 cagaaaacaa ggcgagaagg aacaggaaga ggagcataaa atatgactcc ttgctggagc
+      721 agggccttgt cgaagcagct cttgtgtcta agatctcaag tccttcagat aaaaagattc
+      781 cagctaagaa agagtcttgt ccaaacactg gaagagacaa agaccacctg ttgaaataca
+      841 acgttggtga tttggtgtgg tccaaagtgt cgggttaccc ttggtggcct tgcatggttt
+      901 ctgcagatcc actccttcac agctatacca aacttaaagg tcagaaaaag agtgcacgcc
+      961 agtatcacgt acagttcttt ggtgacgccc cagaaagagc ttggatattt gagaagagcc
+     1021 tcgtagcttt tgaaggagaa ggacagtttg aaaaattatg ccaggaaagt gccaagcagg
+     1081 cacccacgaa agctgagaaa attaagctat tgaaaccaat ttcagggaaa ttgagggccc
+     1141 agtgggaaat gggcattgtt caagcagaag aagctgcaag catgtcagtg gaggagcgga
+     1201 aagccaagtt cacctttctc tatgtggggg accagcttca tctcaaccct caagtagcca
+     1261 aggaggctgg cattgctgca gagtctttgg gagaaatggc agaatcctca ggagtcagtg
+     1321 aagaagctgc tgaaaacccc aagtctgtga gagaagagtg cattcccatg aagagaaggc
+     1381 ggagggccaa actgtgtagc tctgcagaga ccctggagag tcaccccgac atagggaaga
+     1441 gtactcctca aaagacggca gaggctgacc ccagaagagg agtagggtct cctcctggga
+     1501 ggaagaagac cacagtctcc atgccacgaa gcaggaaggg agatgcagca tcccagtttt
+     1561 tggtcttctg tcaaaaacac agggatgagg tggtagctga gcacccagat gcttcaggtg
+     1621 aggagattga agagctgctc aggtcacagt ggagtctgct gagtgagaag cagagagcac
+     1681 gctacaacac caagtttgcc ctggtggccc ctgtccaggc tgaagaagac tctggtaatg
+     1741 taaatgggaa aaaaagaaac cacacaaaga ggatacagga ccctacagaa gatgctgaag
+     1801 ctgaggacac acccaggaaa agactcagga cggacaagca cagtcttcgg aagagagaca
+     1861 caatcactga caaaacggcc agaacaagct cttacaaggc catggaggca gcctcctcgc
+     1921 tcaagagcca ggcagcaacg aaaaatctgt ctgatgcatg taaaccactg aagaagcgaa
+     1981 atcgggcttc cacggcagca tcttcagctc ttgggtttag caaaagttca tctccttctg
+     2041 catccttaac tgagaatgag gtctcggaca gcccgggaga cgagccctcg gagtccccat
+     2101 acgaaagtgc agacgaaaca caaactgaag tatctgtctc atccaaaaag tctgagcgag
+     2161 gagtgactgc caaaaaggag tatgtgtgcc agctgtgtga gaagccgggc agcctcctgc
+     2221 tctgtgaagg accctgctgc ggagctttcc acctcgcctg ccttgggctt tcccggaggc
+     2281 cagaagggag gttcacctgc agcgagtgtg cctcagggat tcactcatgt ttcgtgtgta
+     2341 aagagagcaa gacagatgtt aagcgctgtg tggtaactca gtgtggaaaa ttttaccatg
+     2401 aggcttgtgt gaaaaaatac cctctgactg tatttgagag ccgaggtttc cgctgccccc
+     2461 tccacagctg tgtgagctgc catgcttcca acccttcaaa cccaaggccg tcaaaaggta
+     2521 aaatgatgcg gtgtgtccgc tgccccgttg cctatcacag cggggatgct tgtctggcag
+     2581 caggatgctc agtgatcgcc tccaacagca tcatctgcac tgcccacttc actgctcgga
+     2641 aggggaagcg acaccacgcc cacgtcaacg tgagctggtg cttcgtgtgc tccaaagggg
+     2701 ggagccttct gtgctgtgag tcctgcccag cggccttcca ccctgactgc ctgaacatcg
+     2761 agatgcctga cggcagctgg ttctgcaatg actgcagggc tgggaagaag ctgcacttcc
+     2821 aggatatcat ttgggtgaaa cttgggaact acagatggtg gccggcagaa gtttgccatc
+     2881 ccaaaaatgt tcccccaaat attcagaaaa tgaagcacga gattggagaa ttccctgtgt
+     2941 ttttctttgg gtctaaagat tattactgga cgcatcaggc gcgagtgttc ccgtacatgg
+     3001 agggggaccg gggcagccgc taccaggggg tcagagggat cggaagagtc ttcaaaaacg
+     3061 cactgcaaga agctgaagct cgttttcgtg aaattaagct tcagagggaa gcccgagaaa
+     3121 cacaggagag cgagcgcaag cccccaccat acaagcacat caaggtgaat aagccttacg
+     3181 ggaaagtcca gatctacaca gcggatattt cagaaatccc taagtgcaac tgcaagccca
+     3241 cagatgagaa tccttgtggc tttgattcgg agtgtctgaa caggatgctg atgtttgagt
+     3301 gccacccgca ggtgtgtccc gcgggcgagt tctgccagaa ccagtgcttc accaagcgcc
+     3361 agtacccaga gaccaagatc atcaagacag atggcaaagg gtggggcctg gtcgccaaga
+     3421 gggacatcag aaagggagaa tttgttaacg agtacgttgg ggagctgatc gacgaggagg
+     3481 agtgcatggc gagaatcaag cacgcacacg agaacgacat cacccacttc tacatgctca
+     3541 ctatagacaa ggaccgtata atagacgctg gccccaaagg aaactactct cgatttatga
+     3601 atcacagctg ccagcccaac tgtgagaccc tcaagtggac agtgaatggg gacactcgtg
+     3661 tgggcctgtt tgccgtctgt gacattcctg cagggacgga gctgactttt aactacaacc
+     3721 tcgattgtct gggcaatgaa aaaacggtct gccggtgtgg agcctccaat tgcagtggat
+     3781 tcctcgggga tagaccaaag acctcgacga ccctttcatc agaggaaaag ggcaaaaaga
+     3841 ccaagaagaa aacgaggcgg cgcagagcaa aaggggaagg gaagaggcag tcagaggacg
+     3901 agtgcttccg ctgcggtgat ggcgggcagc tggtgctgtg tgaccgcaag ttctgcacca
+     3961 aggcctacca cctgtcctgc ctgggccttg gcaagcggcc cttcgggaag tgggaatgtc
+     4021 cttggcatca ttgtgacgtg tgtggcaaac cttcgacttc attttgccac ctctgcccca
+     4081 attcgttctg taaggagcac caggacggga cagccttcag ctgcaccccg gacgggcggt
+     4141 cctactgctg tgagcatgac ttaggggcgg catcggtcag aagcaccaag actgagaagc
+     4201 cccccccaga gccagggaag ccgaagggga agaggcggcg gcggaggggc tggcggagag
+     4261 tcacagaggg caaatagcgc caggcggccg cttggccgga tccaggggcg gtgcagggcg
+     4321 gccggccctg cctgcgggag agggcgagca tgaactggcc cggaggaccc agctcgagcc
+     4381 gccaggacac agacgtacag gcctcctcgg gagggagcgc ctccccacca ctgagccatc
+     4441 ctcagcagcg tccgctgcgt ctgcactgat gaccgtctga gcccagctca gcgttcctgg
+     4501 acaaacagcc tcactcctca gcgttaccgc cacacttgaa tttctccgaa tgtcaaggtt
+     4561 ccctcccact ctattttttt aggttaaagt taattggcat atggaatgtt ttaatctcct
+     4621 ctgaaatgtg tagcgtaggc ttttcccaag ggtcgctaga aactcgtctt cgcgttgccc
+     4681 cctttctggc tctcagcgcc gtcgccactc gggagaggct gggtgaggcc cgtgtgagga
+     4741 ctgaccctgg attcctcgaa actgccattg tgatcattac tctgctcttt ggaaatggct
+     4801 gtatcatttt tttgtactaa tgtgaattgt tcctcagaaa cgcttctttt ccatcctagt
+     4861 gagaagctgg ccctgcaggt ggtggcagca atggtgttgt aagatttcct cccgtagttt
+     4921 tttctcctca tggatttgaa tgaaatgcca ataacacgtc cactttcaac gtgtagttta
+     4981 cgcggagcac tttcgaggcc tggccgggtt gggcctactt ctcacctggg cctatcttct
+     5041 gaactcgcta ggttcttatc aacatttggg ggataacttt gtatattttt ttcatttggc
+     5101 ttttctttac cagtttctga tttttattct caatatattt ttgctaaacc tatttcacaa
+     5161 atcaccaccg actgaagtgt gtgtttactg atgcggccct gagctccatg gcgaaaggag
+     5221 tgactttgca gggcgtgaga ccgcagtctg cttagagcac aggaagtgac aacttaggga
+     5281 gccccgtagg gcgctgcagg ccccggggac cccagcacgt gggtctaaag agagacggag
+     5341 tctagctctc ctgccaccca gagtggcttc catctcagca ctctgtgggt ctggtgatgg
+     5401 aagatgcagt ctctgctgat cacatgtgcc ctctgccagg gcacctactg agaggtgcgg
+     5461 tcctgggggt ggaggcctgc ctggcaggtg tgcgtgcctc gtacgtgtgt tatgggcact
+     5521 ggtctaggcc aggtatgaca cccactctcc tgtgagattt cactttagtt tttaaaaggt
+     5581 ccagttctac agagtgagac ctatctatct gagtactaca tatgttttaa gacttggttc
+     5641 tttttttgag ggatccttga ccctgggaag tctggagcac cctgagaagg gggcaccatg
+     5701 tgtgcctttg cccacgtgtc ctgaggggct gcttgtctgg gagggaggga gagaacattc
+     5761 agcagcaggt gcttttttat ggccttttct taaaataacc taagggggac acatccatct
+     5821 tgcagagaag tttacagaac tccccttgaa aactgctgct gaggctcctg ttaaattttc
+     5881 tgtggcatct tttatgcctt ggtaaaaact gcagtgtctt tggacctgag agtggctact
+     5941 ccgtggtttt gtgacctgta agcgtggggt tcaggggtgt gtggccctgc agggtcccac
+     6001 gcctccctga gcactgactg gaagtttcac tggctggtgg ctgtcccttc tcccatcagg
+     6061 gtccccagca aagttaacta cacagaggac ccaggggaaa cgagctgtgt agccactgac
+     6121 ttgctcgcgc ggccgtggcc tctgaggggc actcgccggt taagacaggg tgggagtagt
+     6181 gctttccagt tcagactcta acttctccca aagtgtccta agaaaatact ggatcggctc
+     6241 atagatttat gctccttatg atgccctaac ttggaaggtt gttctaggga caggccgggc
+     6301 agtgtcccca cacacacctt agagtcgaag gccccagggc cccgctgtca cttgcccaaa
+     6361 agatcccttc cggcaggtaa gggactacca atgcttacgt caaaacagca gaatcggctt
+     6421 tgcagtgcac tttggggagc agatattaac ttatttttgt gttggacagt agtgaaatct
+     6481 tgtgattttt aatcgctttg ataatacttc caaattttat gatttttctg aaggaaataa
+     6541 tgcaaacatt ttaaatatgt ttctccccct ttccaaaaac tgttaaacta atgagcaagt
+     6601 aacactaact ttgaatgtct ctacaatacc cgttgataac tcagtggagc caggctttgg
+     6661 ggtagcggcc ctgagcttgc agggtttctc gccactgggg ctgaccacgc ccccagctgt
+     6721 gaccgtgggt gtggctggct ctcggccctg cccagctttg ttctgaggac gtggtgactt
+     6781 cctgaacatc agcttcaatc ctccatcatt aatgtgaagc aaaacacaaa aaccgcccca
+     6841 atccctcagg attccttggc atccgaaacc agcatctgca cctaaaccca tacccacccg
+     6901 tgtgcgccca cagggggatg tgtccgaatg ggcagcttaa aatgtggtca cctgtggggg
+     6961 aaactcttca ggcacctgaa gtgagaaccc agctgtccgt cctcaggccg gcctttcttc
+     7021 cggcgacacc cgtccatggc tggctgggtc cccttcgcag tgtttgtctg tcttgacatc
+     7081 taaaccccgg cgtgtgcagt gcccatcttc caggactacc ttattttcca gaattaaacc
+     7141 tgttttataa ttcaagttaa tgcaaatgac tgtcagttgc caaatatctt gatcctatga
+     7201 gtgtagttga tgactgtttg ttagtcagta gagtaaaatg ctgtgtccac ggggtgtcac
+     7261 agcctcacca taccctgttg aggtgtgaaa tgccccgtca gaaattaaat acaaacttaa
+     7321 atgtgcctat tggtgtctaa acttcataca atgtaaggtc agattccttt taggaatact
+     7381 gggtgctgtc accaggtttg atagttagac ttaaaaactt gaaattcact ttttgggggg
+     7441 agggatatac tgaaatagag agttgagact tgccagttgg gggaaaatag catttaaaat
+     7501 ggaaagctgt gtttggaaaa ttgtgtatga gtatttttgt attaaaaaca ttttaaaggc
+//

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+.env
+.env.*
+*.log
+
+# local scratch dumps at repo root
+/RNA_w40_u1.out
+/t_ss.eps

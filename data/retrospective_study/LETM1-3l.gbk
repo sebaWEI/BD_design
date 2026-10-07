@@ -1,0 +1,458 @@
+LOCUS       LETM1                   5371 bp    mRNA    linear   UNA 22-MAY-2026
+DEFINITION  Homo sapiens leucine zipper and EF-hand containing transmembrane 
+            protein 1 (LETM1), mRNA; nuclear gene for mitochondrial product.
+ACCESSION   NM_012318
+VERSION     .
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+REFERENCE   1  (bases 1 to 5371)
+  AUTHORS   Frommelt F, Ladurner R, Goldmann U, Wolf G, Ingles-Prieto A, 
+            Lineiro-Retes E, Gelova Z, Hopp AK, Christodoulaki E, Teoh ST, 
+            Leippe P, Santini BL, Rebsamen M, Lindinger S, Serrano I, Onstein S,
+            Klimek C, Barbosa B, Pantielieieva A, Dvorak V, Hannich TJ, 
+            Schoenbett J, Sansig G, Mocking TAM., Ooms JF, IJzerman AP, Heitman 
+            LH, Sykacek P, Reinhardt J, Muller AC, Wiedmer T, Superti-Furga G.
+  TITLE     The solute carrier superfamily interactome
+  JOURNAL   Mol Syst Biol 21 (6), 632-675 (2025)
+  PUBMED    40355756
+REFERENCE   2  (bases 1 to 5371)
+  AUTHORS   Ma L, Liu W, Li M.
+  TITLE     Circ_0061140 Contributes to Ovarian Cancer Progression by Targeting 
+            miR-761/LETM1 Signaling
+  JOURNAL   Biochem Genet 61 (2), 628-650 (2023)
+  PUBMED    36056285
+REFERENCE   3  (bases 1 to 5371)
+  AUTHORS   Austin S, Mekis R, Mohammed SEM., Scalise M, Wang WA, Galluccio M, 
+            Pfeiffer C, Borovec T, Parapatics K, Vitko D, Dinhopl N, Demaurex N,
+            Bennett KL, Indiveri C, Nowikovsky K.
+  TITLE     TMBIM5 is the Ca2+ /H+ antiporter of mammalian mitochondria
+  JOURNAL   EMBO Rep 23 (12), e54978 (2022)
+  PUBMED    36321428
+REFERENCE   4  (bases 1 to 5371)
+  AUTHORS   Kaiyrzhanov R, Mohammed SEM., Maroofian R, Husain RA, Catania A, 
+            Torraco A, Alahmad A, Dutra-Clarke M, Gronborg S, Sudarsanam A, Vogt
+            J, Arrigoni F, Baptista J, Haider S, Feichtinger RG, Bernardi P, 
+            Zulian A, Gusic M, Efthymiou S, Bai R, Bibi F, Horga A, 
+            Martinez-Agosto JA, Lam A, Manole A, Rodriguez DP, Durigon R, Pyle 
+            A, Albash B, Dionisi-Vici C, Murphy D, Martinelli D, Bugiardini E, 
+            Allis K, Lamperti C, Reipert S, Risom L, Laugwitz L, Di Nottia M, 
+            McFarland R, Vilarinho L, Hanna M, Prokisch H, Mayr JA, Bertini ES, 
+            Ghezzi D, Ostergaard E, Wortmann SB, Carrozzo R, Haack TB, Taylor 
+            RW, Spinazzola A, Nowikovsky K, Houlden H.
+  TITLE     Bi-allelic LETM1 variants perturb mitochondrial ion homeostasis 
+            leading to a clinical spectrum with predominant nervous system 
+            involvement
+  JOURNAL   Am J Hum Genet 109 (9), 1692-1712 (2022)
+  PUBMED    36055214
+REFERENCE   5  (bases 1 to 5371)
+  AUTHORS   Morgenstern M, Peikert CD, Lubbert P, Suppanz I, Klemm C, Alka O, 
+            Steiert C, Naumenko N, Schendzielorz A, Melchionda L, Muhlhauser 
+            WWD., Knapp B, Busch JD, Stiller SB, Dannenmaier S, Lindau C, 
+            Licheva M, Eickhorst C, Galbusera R, Zerbes RM, Ryan MT, Kraft C, 
+            Kozjak-Pavlovic V, Drepper F, Dennerlein S, Oeljeklaus S, Pfanner N,
+            Wiedemann N, Warscheid B.
+  TITLE     Quantitative high-confidence human mitochondrial proteome and its 
+            dynamics in cellular context
+  JOURNAL   Cell Metab 33 (12), 2464-2483 (2021)
+  PUBMED    34800366
+REFERENCE   6  (bases 1 to 5371)
+  AUTHORS   Hasegawa A, van der Bliek AM.
+  TITLE     Inverse correlation between expression of the Wolfs Hirschhorn 
+            candidate gene Letm1 and mitochondrial volume in C. elegans and in 
+            mammalian cells
+  JOURNAL   Hum Mol Genet 16 (17), 2061-2071 (2007)
+  PUBMED    17606466
+REFERENCE   7  (bases 1 to 5371)
+  AUTHORS   Nowikovsky K, Froschauer EM, Zsurka G, Samaj J, Reipert S, Kolisek 
+            M, Wiesenberger G, Schweyen RJ.
+  TITLE     The LETM1/YOL027 gene family encodes a factor of the mitochondrial 
+            K+ homeostasis with a potential role in the Wolf-Hirschhorn syndrome
+  JOURNAL   J Biol Chem 279 (29), 30307-30315 (2004)
+  PUBMED    15138253
+REFERENCE   8  (bases 1 to 5371)
+  AUTHORS   Schlickum S, Moghekar A, Simpson JC, Steglich C, O'Brien RJ, 
+            Winterpacht A, Endele SU.
+  TITLE     LETM1, a gene deleted in Wolf-Hirschhorn syndrome, encodes an 
+            evolutionarily conserved mitochondrial protein
+  JOURNAL   Genomics 83 (2), 254-261 (2004)
+  PUBMED    14706454
+REFERENCE   9  (bases 1 to 5371)
+  AUTHORS   Endele S, Fuhry M, Pak SJ, Zabel BU, Winterpacht A.
+  TITLE     LETM1, a novel gene encoding a putative EF-hand Ca(2+)-binding 
+            protein, flanks the Wolf-Hirschhorn syndrome (WHS) critical region 
+            and is deleted in most WHS patients
+  JOURNAL   Genomics 60 (2), 218-225 (1999)
+  PUBMED    10486213
+REFERENCE   10  (bases 1 to 5371)
+  AUTHORS   Battaglia A, Carey JC, South ST.
+  TITLE     Wolf-Hirschhorn Syndrome - RETIRED CHAPTER, FOR HISTORICAL REFERENCE
+            ONLY
+  JOURNAL   (in) Adam MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A 
+            (Eds.); GENEREVIEWS(R); (1993)
+  PUBMED    20301362
+REFERENCE   11  (bases 1 to 5371)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported May 22, 2026 from SnapGene 8.0.0
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Mol Syst 
+            Biol"; date: "2025"; volume: "21"; issue: "6"; pages: "632-675"
+COMMENT     SGRef: number: 2; type: "Journal Article"; journalName: "Biochem 
+            Genet"; date: "2023"; volume: "61"; issue: "2"; pages: "628-650"
+COMMENT     SGRef: number: 3; type: "Journal Article"; journalName: "EMBO Rep"; 
+            date: "2022"; volume: "23"; issue: "12"; pages: "e54978"
+COMMENT     SGRef: number: 4; type: "Journal Article"; journalName: "Am J Hum 
+            Genet"; date: "2022"; volume: "109"; issue: "9"; pages: "1692-1712"
+COMMENT     SGRef: number: 5; type: "Journal Article"; journalName: "Cell 
+            Metab"; date: "2021"; volume: "33"; issue: "12"; pages: "2464-2483"
+COMMENT     SGRef: number: 6; type: "Journal Article"; journalName: "Hum Mol 
+            Genet"; date: "2007"; volume: "16"; issue: "17"; pages: "2061-2071"
+COMMENT     SGRef: number: 7; type: "Journal Article"; journalName: "J Biol 
+            Chem"; date: "2004"; volume: "279"; issue: "29"; pages: 
+            "30307-30315"
+COMMENT     SGRef: number: 8; type: "Journal Article"; journalName: "Genomics"; 
+            date: "2004"; volume: "83"; issue: "2"; pages: "254-261"
+COMMENT     SGRef: number: 9; type: "Journal Article"; journalName: "Genomics"; 
+            date: "1999"; volume: "60"; issue: "2"; pages: "218-225"
+COMMENT     SGRef: number: 10; type: "Journal Article"; journalName: "(in) Adam 
+            MP, Bick S, Mirzaa GM, Pagon RA, Wallace SE and Amemiya A (Eds.); 
+            GENEREVIEWS(R); (1993)"
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The 
+            reference sequence was derived from AF061025.1 and AC105448.5.
+            This sequence is a reference standard in the RefSeqGene project.On 
+            Nov 22, 2018 this sequence version replaced NM_012318.2.Summary: 
+            This gene encodes a protein that is localized to the inner 
+            mitochondrial membrane. The protein functions to maintain the 
+            mitochondrial tubular shapes and is required for normal 
+            mitochondrial morphology and cellular viability. Mutations in this 
+            gene cause Wolf-Hirschhorn syndrome, a complex malformation syndrome
+            caused by the deletion of parts of the distal short arm of 
+            chromosome 4. Related pseudogenes have been identified on 
+            chromosomes 8, 15 and 19. [provided by RefSeq, Oct 2009].Sequence 
+            Note: This RefSeq record was created from transcript and genomic 
+            sequence data because transcript sequence consistent with the 
+            reference genome assembly was not available for all regions of the 
+            RefSeq transcript. The extent of this transcript is supported by 
+            transcript alignments.Publication Note:  This RefSeq record includes
+            a subset of the publications that are available for this gene. 
+            Please see the Gene record to access additional 
+            publications.##Evidence-Data-START##
+            Transcript exon combination :: SRR1803612.244606.1,
+                                           SRR1660809.61502.1 [ECO:0000332] 
+            RNAseq introns              :: mixed sample support SAMEA1965299,
+                                           SAMEA1966682 [ECO:0006172] 
+            ##Evidence-Data-END####RefSeq-Attributes-START##
+            gene product(s) localized to mito. :: reported by MitoCarta
+            MANE Ensembl match                 :: ENST00000302787.3/
+                                                  ENSP00000305653.2
+            RefSeq Select criteria             :: based on conservation,
+                                                  expression, longest protein 
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5371
+                     /chromosome="4"
+                     /map="4p16.3"
+                     /mol_type="mRNA"
+                     /note="color: #ffffff"
+                     /db_xref="taxon:9606"
+                     /organism="Homo sapiens"
+     gene            1..5371
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /label=LETM1
+                     /note="leucine zipper and EF-hand containing transmembrane 
+                     protein 1"
+                     /note="color: #a6acb3; direction: RIGHT"
+                     /db_xref="GeneID:3954"
+                     /db_xref="HGNC:HGNC:6556"
+                     /db_xref="MIM:604407"
+     exon            1..288
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    57..59
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /label=upstream in-frame stop codon
+                     /note="upstream in-frame stop codon"
+                     /note="color: #a6acb3"
+     CDS             207..2426
+                     /codon_start=1
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /product="mitochondrial proton/calcium exchanger protein
+                     precursor"
+                     /label=LETM1
+                     /note="Mdm38 homolog; LETM1 and EF-hand domain-containing 
+                     protein 1, mitochondrial; leucine zipper-EF-hand containing
+                     transmembrane protein 1; mitochondrial proton/calcium 
+                     exchanger protein; electroneutral mitochondrial 
+                     K(+)/H(+)exchanger"
+                     /note="color: #993366"
+                     /db_xref="CCDS:CCDS3355.1"
+                     /db_xref="GeneID:3954"
+                     /db_xref="HGNC:HGNC:6556"
+                     /db_xref="MIM:604407"
+                     /protein_id="NP_036450.1"
+                     /translation="MASILLRSCRGRAPARLPPPPRYTVPRGSPGDPAHLSCASTLGLR
+                     NCLNVPFGCCTPIHPVYTSSRGDHLGCWALRPECLRIVSRAPWTSTSVGFVAVGPQCLP
+                     VRGWHSSRPVRDDSVVEKSLKSLKDKNKKLEEGGPVYSPPAEVVVKKSLGQRVLDELKH
+                     YYHGFRLLWIDTKIAARMLWRILNGHSLTRRERRQFLRICADLFRLVPFLVFVVVPFME
+                     FLLPVAVKLFPNMLPSTFETQSLKEERLKKELRVKLELAKFLQDTIEEMALKNKAAKGS
+                     ATKDFSVFFQKIRETGERPSNEEIMRFSKLFEDELTLDNLTRPQLVALCKLLELQSIGT
+                     NNFLRFQLTMRLRSIKADDKLIAEEGVDSLNVKELQAACRARGMRALGVTEDRLRGQLK
+                     QWLDLHLHQEIPTSLLILSRAMYLPDTLSPADQLKSTLQTLPEIVAKEAQVKVAEVEGE
+                     QVDNKAKLEATLQEEAAIQQEHREKELQKRSEVAKDFEPERVVAAPQRPGTEPQPEMPD
+                     TVLQSETLKDTAPVLEGLKEEEITKEEIDILSDACSKLQEQKKSLTKEKEELELLKEDV
+                     QDYSEDLQEIKKELSKTGEEKYVEESKASKRLTKRVQQMIGQIDGLISQLEMDQQAGKL
+                     APANGMPTGENVISVAELINAMKQVKHIPESKLTSLAAALDENKDGKVNIDDLVKVIEL
+                     VDKEDVHISTSQVAEIVATLEKEEKVEEKEKAKEKAEKEVAEVKS"
+     transit_peptide 207..551
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="prediction from the TargetP 1.1 Server"
+                     /note="color: #cc99b2"
+     exon            289..349
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            350..800
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     mat_peptide     552..2423
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /product="mitochondrial proton/calcium exchanger protein"
+                     /note="color: #cc99b2"
+     misc_feature    780..782
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="Phosphothreonine, by PINK1. 
+                     /evidence=ECO:0000269|PubMed:29123128; propagated from 
+                     UniProtKB/Swiss-Prot (O95202.1); phosphorylation site"
+                     /note="color: #a6acb3"
+     exon            801..944
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    831..893
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95202.1); 
+                     transmembrane region"
+                     /note="color: #a6acb3"
+     exon            945..1082
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1083..1286
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1287..1406
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1407..1538
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1539..1682
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1683..1814
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1815..1949
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            1950..2137
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    1995..1997
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from 
+                     UniProtKB/Swiss-Prot (O95202.1); acetylation site"
+                     /note="color: #a6acb3"
+     exon            2138..2276
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     exon            2277..5371
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="color: #708090"
+                     /inference="alignment:same species:2.1.0"
+     misc_feature    2358..2423
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /note="propagated from UniProtKB/Swiss-Prot (O95202.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+                     /note="color: #a6acb3"
+     regulatory      2536..2541
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /label=hexamer: AATAAA
+                     /note="hexamer: AATAAA"
+                     /note="color: #ffffff"
+                     /regulatory_class="polyA_signal_sequence"
+     polyA_site      2561
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /label=major polyA site
+                     /note="major polyA site"
+                     /note="color: #a6acb3"
+     misc_feature    5046..5085
+                     /label=1
+                     /note="color: #99ccff"
+     misc_feature    5066..5105
+                     /label=2
+                     /note="color: #cc99ff"
+     misc_feature    5086..5125
+                     /label=3
+                     /note="color: #ccffff"
+     misc_feature    5106..5145
+                     /label=4
+                     /note="color: #ffcc00"
+     misc_feature    5126..5165
+                     /label=5
+                     /note="color: #ff99cc"
+     misc_feature    5146..5185
+                     /label=6
+                     /note="color: #ffff00"
+     misc_feature    5166..5205
+                     /label=7
+                     /note="color: #ffcc99"
+     misc_feature    5186..5225
+                     /label=8
+                     /note="color: #00ff00"
+     misc_feature    5206..5245
+                     /label=9
+                     /note="color: #ffff99"
+     regulatory      5343..5348
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /label=hexamer: ATTAAA
+                     /note="hexamer: ATTAAA"
+                     /note="color: #ffffff"
+                     /regulatory_class="polyA_signal_sequence"
+     polyA_site      5371
+                     /gene="LETM1"
+                     /gene_synonym="CONDMIM; KHE; Mdm38; SLC55A1"
+                     /label=major polyA site
+                     /note="major polyA site"
+                     /note="color: #a6acb3"
+ORIGIN
+        1 gccccgcgcc tccggacgtc tgtgccggga caaggccgcc gctggtgccg ggtccttgag
+       61 gagagcgcct cccgtccgag gccagccgcc tctgtcagcc gtccgcgcgg gccgggtctg
+      121 aagcgccgcc gggacggcga agagccgcgg ccgccgcgga gaaggaggca gcgcaggagg
+      181 ccggagcggc cgccgcgccc gagcacatgg cgtccatctt actgaggagc tgccgcggcc
+      241 gggcgcccgc ccgcctcccg ccgccgcctc ggtacaccgt cccgcggggt agtccagggg
+      301 atcctgctca tctcagctgt gccagcaccc tggggttgag gaactgcctg aatgttccat
+      361 ttggctgctg cactcccatc caccctgtgt acacatcctc cagaggcgat cacctcggct
+      421 gttgggctct gaggcccgag tgccttcgca tagtgtcgag agcgccatgg acctctacct
+      481 ctgtgggttt tgtggctgtg ggacctcagt gccttcctgt gcgtggctgg cactcttcgc
+      541 gccctgttcg cgatgactcg gtagtagaga agtccctcaa gtccttgaag gacaagaaca
+      601 agaagctgga ggaaggcggc ccggtgtaca gcccccccgc agaggtggtg gtgaagaagt
+      661 ccctggggca gcgggtgctg gacgagctga agcactacta ccatggcttc cgcctgctat
+      721 ggatcgacac caagatcgcg gcacgcatgc tctggcgcat cctcaacggc cacagcctga
+      781 cccgccggga gcgcaggcag tttctccgga tctgcgctga cctcttccgc ctggtgccgt
+      841 tccttgtgtt cgtggtggtg ccgttcatgg agtttctgct gcctgttgct gtgaagctct
+      901 tccccaacat gttgccatcc acatttgaga ctcagtcact caaggaggag aggctgaaga
+      961 aggagcttcg ggtcaagctg gagctggcca agttcctcca ggacaccatc gaggagatgg
+     1021 ccttgaagaa caaggcagcc aagggcagcg ccaccaaaga cttctctgtg tttttccaga
+     1081 agatccggga aacaggggag aggcccagca atgaggaaat catgcgtttt tccaaattat
+     1141 ttgaggatga gctgaccctg gacaacctga cacggccgca gctggtggcc ctgtgcaagc
+     1201 tgctggagct acagtccatc ggcaccaaca acttcctgcg cttccagctt accatgcggc
+     1261 tgcgctccat aaaggcagac gacaagctga ttgctgagga aggggtggac agcctgaatg
+     1321 tcaaggagct gcaggcagcg tgtcgggcac gaggcatgcg ggccctgggc gtcacggaag
+     1381 accgcctgag gggtcagctg aagcagtggc tggacctgca cctgcatcag gagatcccca
+     1441 catcgctgct catcctgtcc cgggccatgt acctcccgga caccctctct ccagccgacc
+     1501 agctcaagtc cacactgcag accctcccag agattgtggc aaaggaagca caggtgaaag
+     1561 tggccgaggt ggagggcgag caggtggaca acaaggccaa gctggaggcc acgctgcagg
+     1621 aggaggcggc catccagcag gagcaccgtg agaaggagct gcagaagcgc tcggaggtgg
+     1681 cgaaggattt tgagcccgaa cgtgtggtag ctgctcccca aaggccgggg accgagccac
+     1741 agccagaaat gcctgacaca gtcctgcagt cagagacctt gaaggacact gccccggtgc
+     1801 tggagggctt gaaggaggaa gagatcacga aggaggaaat cgacatcctc agcgatgcct
+     1861 gctctaagct gcaggagcag aagaagtcac tcaccaagga gaaggaggag ctggagctgc
+     1921 tgaaggagga tgtgcaggac tacagcgagg acttgcagga gatcaagaag gaactttcaa
+     1981 agactggtga agaaaagtac gtggaagaat ctaaagccag caagagattg acaaaaaggg
+     2041 tgcagcaaat gatcgggcag atcgatggct tgatctcgca gctggagatg gaccagcagg
+     2101 ctggcaagct ggccccggcc aacggcatgc ccacggggga gaacgtcatc agtgtcgctg
+     2161 agctcatcaa cgccatgaag caagtcaagc acattcccga aagcaagctc accagcctgg
+     2221 ccgcagcact ggatgaaaac aaggatggca aggtcaacat cgacgacctc gtcaaggtga
+     2281 ttgagctggt ggacaaagaa gatgttcaca tctccaccag ccaggtggct gagattgtag
+     2341 caacactgga aaaagaggag aaggtggagg agaaggagaa ggccaaagag aaggcagaga
+     2401 aggaggtcgc agaggtgaag agctagaacc actggcctgg gcacctgtcc tcctgctgtg
+     2461 ccgtcaccct ggcaagggcc gtgagggcga ttgctttgtg gtgattctca gtggctcatc
+     2521 taatattttg gctggaataa atcagagact tccataatca agtaaatttt aattttcatc
+     2581 attccacgga gattcagtct gtctggaatc ccggaacccc tccacagaat cgtgtctgga
+     2641 tccacactgt ggtgtggctg ccacggcctc ctggctccag aggcagctgg gctgggccaa
+     2701 ggcaggaagg cgcccccatg tgtgtggcct cagtctcagc atctgactgt gctgccctgt
+     2761 ccccagggaa gagaatgagg accacgtgga ctccgcccac acagagctgg ctgctgtgcc
+     2821 caccctcagg ggcgtcagga gacacagcct ggcctcctca gggctgaaga tgcctccatt
+     2881 cgcctgtgga ccttgatttc tagatttcag tgtcaataga cctgtcttcc tgcacacttt
+     2941 cagttggatg tgggtcattg tggagacaga ggtgtctgcc atctctgtgg cctctggaga
+     3001 gtgacgtctc cctgctggga gtgctggttc tcacgtgcgg tttcccttgt gtatcggagc
+     3061 tctttctcgg ctttctattt cccccagttc tttaagcagt caattggcac agagtttccc
+     3121 acgggggctg cagtggattc actgtgtcag ggatgagcct ggcttggggg ttggtggggc
+     3181 tctgaagcgc atttggggtt ctttgtagct tctaatgtga ggtttgagtc cagtgcgccc
+     3241 acagcagcat gcccttctca ccccttgcag tgttgcaggc tcaggcccct gggctccttc
+     3301 agcaagcagg ctagtcaatg aggcatgagg atccggcaca gggcatcccc tggggcttca
+     3361 agggcaatac ccccgtgctt agggtttgcc ctgtgccctc tgggtggggt ggcctccccg
+     3421 cactcggcag catggccagg ctggccaggg cgtgggcagg tggtgtcctg tggcacctcc
+     3481 atcctcctgc ccagccggct gtgtcacact catcttttta aggtcaggtt ggttcctggc
+     3541 aaaaatgtac ctccaggggc ctccaagcat aggatttgga agacaggaac ggcacaggcg
+     3601 tccaggaaag cagctgcact cagacaatgc cttctccatt acttgaagct tctttctgtt
+     3661 cagccattaa agaaacttga caaaatagga acaggagata tttctcaatt gtaaaccttt
+     3721 gtgcagggac agttggcttc cagaggcttt cagctttcag ttatttgaga agtttgtttt
+     3781 agatccttaa ctaatattta tgaattctct caccctgtgt aagtagcctg gtgttcgttt
+     3841 gtccaagtgt acttaccctt gagaacaagt cttgcagttg ccaggtgtgt gcagacgcct
+     3901 ctcctgtgag cggcatcgcg ggcccagtca gctgccccgg ctctcatcct cgtcctcact
+     3961 gccttggctg agcactgttg acgtgaacag ccactgcaac aggcagccca tcccactgtc
+     4021 ccctctgccc tggactccgc atggcctcca aaagccagct tgccctccgg gtgctgcagg
+     4081 ggctttgcag gtggggaagg ctctggtggg tgcctttggt ggcttccgtg acatcagccg
+     4141 tgctctgatg caggcttgct ccctcgtcat tctccctcgt cattctccct catcgttctg
+     4201 tgtgcatttt tctctatgtc ctgacctttc ttcttgcacc taaaagtggt gtctgggtgc
+     4261 aaatgtaagc agtggtggat ccagaaatat gagctttgtg taataagctt cttaaaacag
+     4321 tcctttctta cacctgccca gggccagacc ctcggtcttg gcctttttca ggagctagga
+     4381 tatctgcgcc tggtgaaaat gaaacgaatt cctgatttag gaattcagtg tttcctcctc
+     4441 actccagcta agcactcact tttttttttt tttttttttt tttttgatac agagtctcgc
+     4501 tctgtcaccc aggctggagt gcagtggtgc gatctcggct cactgcaagc tccacctccc
+     4561 gggttcaagc gattcttctg cctcagcctc ctgagtaatt gggattacag gcatgcgcca
+     4621 ccatgcccag ctaatttttt tttttttttt tgagacagag tcttgctctg tctcccaggc
+     4681 tggagtgcaa tggcgtgatc tcggctcact gccagctccg cttcctgggt tcacgccatt
+     4741 ctcctgcctc agcctcccga gtagccagga ctacaagcac ccgccaccac acctggctaa
+     4801 tttttttgta tttttattag agacagtgtt ttaccgtgtt agccaggatg gtctcgatct
+     4861 cctgacttcg tgatctactc acctcggcct cccaaagtgc tgggattacg ggcaagtttt
+     4921 tattagagat ggggtttcat catgttggtc aggctggtct tcaactcctg acctcaggtg
+     4981 atccacccgc ctcagcctcc caaagtgctg ggattacagg catgagccac cgcgcccggc
+     5041 ctgaactctc agttctaacg cagggattca ggaattgggc tttcagactc cttctgcagt
+     5101 gtcacagtcc agactttttt taaatgaagg acaccccgca gtggctcaca gtgggtccca
+     5161 gggctagcag gagcgtgctg gggagccggc tctgtctttg ttcgcagtgg gtcccggtgc
+     5221 tggcaggagt gtgctggtga gccggctctg tctttgtaaa tccttcaggg gtcctacggc
+     5281 tgactccacc ggacagcccg tcctgggccg tgttaagcac cttttgtaga aatcgtattt
+     5341 ttattaaaac atcaaatctg tgttcctgta a
+//
