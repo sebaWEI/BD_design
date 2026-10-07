@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Build retrospective_scores.tsv from fluc Excel + RNAup all_binding_sites tables.
+"""Build retrospective_scores.tsv from fluc Excel + RNAup energy tables.
 
-Expects RNAup runs that scored every wet-lab tile (e.g. filter with a very high
-``--offtarget-min-length`` so BLAST does not drop sites before ``--rnaup``).
-
-Default run IDs match the Cycle 3 figure freeze::
+Prefer ``scripts/score_rnaup.py --sites …`` for tile energies. Legacy defaults
+still read screening run TSVs that already carry RNAup columns::
 
     LETM1: runs/20260926T120209Z_3ce6a3cc
     NSD2:  runs/20260926T120220Z_fc8c4409
