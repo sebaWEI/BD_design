@@ -3,9 +3,10 @@
 Energy scoring, polymer–kinetics landscapes, and BD design for
 **iGEM PekingHSC 2026** (HEPHA-RNA).
 
-BLAST / variant **safety screening** lives in
-[`BD_screening`](https://github.com/sebaWEI/BD_screening) (`bssf`). This
-repo takes candidate sites (or wet-lab tiles) and scores them.
+- [Team model repo](https://github.com/sebaWEI/PekingHSC-2026-Model)
+- [iGEM team](https://teams.igem.org/6371)
+- [Wiki](https://2026.igem.wiki/pekinghsc/)
+
 
 ## Scope
 
