@@ -1,7 +1,7 @@
 # Engineering cycles (wiki)
 
 This page is the engineering narrative for the iGEM wiki. It matches the
-default behaviour of the current `bsst` CLI.
+default behaviour of the current `bssf` CLI.
 
 ## Cycle 1 — Where can it bind?
 
@@ -9,7 +9,7 @@ default behaviour of the current `bsst` CLI.
 nucleotides. A binding site should support target recognition and minimise
 off-target interactions. Sequence similarity via BLAST was the first filter.
 
-**Build.** The first Binding Site Selection Tool (BSST) searched candidates
+**Build.** The first Binding Site Safety Filter (BSSF) searched candidates
 against reference transcripts and removed sites with potentially problematic
 matches.
 
@@ -27,12 +27,12 @@ regions.
 **Design.** Genetic variation inside a selected site may change binding across
 individuals, so the tool should also ask whether a site is genetically stable.
 
-**Build.** Population variation from dbSNP `common_all_20180418` was added as
-an optional module. When that filter is enabled, sites overlapping annotated
-variable positions can be removed. BLAST was revised to use transcript
-annotation and to treat only 5′UTR and 3′UTR hits as relevant. Same-strand
-alignments alone are kept: a reverse-strand hit is the antisense element
-sequence on another transcript, not a site the element can bind.
+**Build.** Population variation from dbSNP (COMMON sites on GRCh38.p14) was
+added as an optional module. When that filter is enabled, sites overlapping
+annotated variable positions can be removed. BLAST was revised to use
+transcript annotation and to treat only 5′UTR and 3′UTR hits as relevant.
+Same-strand alignments alone are kept: a reverse-strand hit is the antisense
+element sequence on another transcript, not a site the element can bind.
 
 **Test.** The tool then combined off-target context with optional genetic
 robustness. Wet-lab users still found the raw BLAST table hard to read.
@@ -43,7 +43,7 @@ The UTR-hit length threshold is user-adjustable (`--offtarget-min-length`).
 
 ## Cycle 3 — How well will it work?
 
-**Design.** After the safety filter, we asked whether BSST could rank sites by
+**Design.** After the safety filter, we asked whether BSSF could rank sites by
 expected translational upregulation using RNA thermodynamics.
 
 **Build.** RNAup estimated opening and interaction free energy; candidates were
@@ -62,7 +62,7 @@ activity. A favourable interaction is not a favourable translational outcome.
 For a therapeutic design pipeline, an unstable prediction is worse than no
 prediction. We therefore limited the tool to safety-oriented filtering.
 
-**Build.** RNAup scoring lives in `BD_design` (`model/score_rnaup.py`), off by
+**Build.** RNAup scoring lives in `BD_design` (`model/energy/score_rnaup.py`), off by
 default in screening. The default screening core is same-strand BLAST against
 the pinned GENCODE 45 transcriptome, with only 5′UTR / 3′UTR hits above an
 adjustable length threshold dropping a site. Variation filtering (`--variants`)
@@ -73,5 +73,5 @@ identity, and both intervals.
 The thermodynamic score is not presented as a validated activity predictor.
 
 **Learn.** A useful design tool should not predict what its model cannot
-reliably explain. BSST is a filter and decision-support tool, not a black-box
+reliably explain. BSSF is a filter and decision-support tool, not a black-box
 predictor of translational upregulation.
